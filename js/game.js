@@ -207,6 +207,8 @@ playersInput.addEventListener("focus", () => {
 	playersWarning.style.display = "none";
 });
 
+
+
 startBtn.addEventListener("click", () => {
 
 	// Get values of inputs
@@ -253,3 +255,4 @@ function validateForm(inputValues) {
 
 	return valid;
 }
+

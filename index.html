@@ -107,6 +107,7 @@
       preloader.remove();
     }, 1000); // Adjust the timeout duration as needed
   });
+
 	</script>
 	<!-- Setting Page -->
 	<div class="settings">
@@ -124,8 +125,8 @@
 
 			<p class="instructions" style="color: rgb(211, 211, 211);">
 				<br>
-				1. Select the number of rows, columns and players. <br>
-				2. The player who has maximum number of boxes on board is the winner. <br>
+				1. Select the number of rows, columns and players. <br><br>
+				2. The player who has maximum number of boxes on board is the winner. <br><br>
 				3. Players will switch after every turn. But the player who has filled the last box, will get one extra
 				chance
 				consecutively. <br>
@@ -186,6 +187,7 @@
 	<div>
 	<button id="theme-button" class="theme-btn">Change Theme</button>
     <div id="theme-options" class="hidden">
+		<button class="playAgain">Play Again</button>
         <button class="theme-option" data-video="back.mp4">Starry Night</button>
         <button class="theme-option" data-video="back2.mp4">Aurora</button>
         <button class="theme-option" data-video="back3.mp4">Waterfall</button>
@@ -198,6 +200,8 @@
 </video>
 
 	<button class="mute-btn"><i class="fa fa-volume-up fa-2x"></i></button>
+		<button class="playAgain"><a href="http://127.0.0.1:5501/index.html">Play Again</a></button>
+
 
 </body>
 
